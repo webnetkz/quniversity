@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1000px) {
+
+    body {
+        background: linear-gradient(170deg, #b9deed,#EECFBA, #0b42d8 80%);
+        min-width: 100%;
+        min-height: 100%!important;
+    }
+    .content {
+        width: 97%;
+        margin-top: 50px;
+        height: 93vh;
+        margin-left: 0px;
+    }
+    .iconMenu {
+        top: -90px;
+    }
+    .iconMenu > a > img {
+        width: 32px;
+    }
+    .wave {
+        height: 34%;
+    }
+    .mask, .maskTwo, .maskThree {
+        width: 97%;
+        height: 93vh;
+        margin-left: 0px;
+        margin-top: 50px;
+        background-position: 0% 50%;
+    }
+    .mainContent {
+        margin-left: 1rem;
+        margin-top: 50px;
+    }
+    nav {
+        position: relative;
+        left: -100%;
+        width: 100%;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        margin-left: 0px;
+        border-bottom: 0.4px solid rgba(255, 255, 255, 0.2);
+    }
+    nav > ul {
+        background-color: white;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 0px;
+    }
+    nav > ul > a {
+        margin-top: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 95%;
+        border: 0.1px solid #c0c0c0;
+        padding: 5px;
+        border-radius: 4px;
+    }
+    nav > ul > a > li {
+        color: #858585;
+    }
+    .mobileMenu {
+        display: block;
+        position: fixed;
+        width: 40px;
+        left: 10px;
+        top: 5px;
+    }
+    .showMobileMenu {
+        left: 0px;
+    }
+}
